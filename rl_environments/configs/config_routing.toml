@@ -1,0 +1,43 @@
+[general]
+device = "auto"
+
+[environment]
+population_size = 50
+max_generations = 50
+nr_objectives = 2
+nr_actions = 2
+nr_of_environments = 10
+reward_factor = 1
+instance_file = ["/hpc/st-ds/projects/GNN4APC/za64617/cvrp_data/cvrp_100_10000.pkl"]
+problem_instances = [1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079, 1080, 1081, 1082, 1083, 1084, 1085, 1086, 1087, 1088, 1089, 1090, 1091, 1092, 1093, 1094, 1095, 1096, 1097, 1098, 1099]
+
+[policy]
+actor_input_dim = 2
+actor_hidden_dim = 64
+critic_input_dim = 2
+critic_hidden_dim = 64
+
+[ppo]
+training_comment = "PPO_routing_2_obj_100_test"
+seed = 0
+buffer_size = 4096
+batch_size = 64
+learning_rate = 1e-3
+lr_decay = true
+gamma = 0.99
+max_epoch = 5000
+step_per_epoch = 500
+episode_per_collect = 10
+replay_buffer_size = 5000
+gae_lambda = 0.95
+max_grad_norm = 0.5
+vf_coef = 0.25
+ent_coef = 0.0
+reward_normalization = true
+action_scaling = true
+action_bound_method = "clip"
+eps_clip = 0.2
+value_clip = false
+dual_clip = 'None'
+advantage_normalization = 0
+recompute_advantage = 1

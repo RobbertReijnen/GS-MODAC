@@ -1,0 +1,10 @@
+{
+  "train_config_file": "PPO_routing_2_obj_20/train_config.toml",
+  "model_path": "PPO_routing_2_obj_20/policy.pth",
+  "instance_file": "cvrp_20_10000.pkl",
+  "problem_instance": 75,
+  "nr_of_objectives": 2,
+  "population_size": 50,
+  "ngen": 50,
+  "rseed": 5
+}
