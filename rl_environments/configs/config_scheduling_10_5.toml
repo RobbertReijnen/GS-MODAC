@@ -1,0 +1,143 @@
+[general]
+device = "auto"
+
+[environment]
+population_size = 50
+max_generations = 50
+nr_objectives = 2
+nr_actions = 2
+nr_of_environments = 5
+reward_factor = 1
+alternative_objectves = false
+problem_instances = [
+      "/train/j10_m5/train_j10_m5_0.txt",
+      "/train/j10_m5/train_j10_m5_1.txt",
+      "/train/j10_m5/train_j10_m5_2.txt",
+      "/train/j10_m5/train_j10_m5_3.txt",
+      "/train/j10_m5/train_j10_m5_4.txt",
+      "/train/j10_m5/train_j10_m5_5.txt",
+      "/train/j10_m5/train_j10_m5_6.txt",
+      "/train/j10_m5/train_j10_m5_7.txt",
+      "/train/j10_m5/train_j10_m5_8.txt",
+      "/train/j10_m5/train_j10_m5_9.txt",
+      "/train/j10_m5/train_j10_m5_10.txt",
+      "/train/j10_m5/train_j10_m5_11.txt",
+      "/train/j10_m5/train_j10_m5_12.txt",
+      "/train/j10_m5/train_j10_m5_13.txt",
+      "/train/j10_m5/train_j10_m5_14.txt",
+      "/train/j10_m5/train_j10_m5_15.txt",
+      "/train/j10_m5/train_j10_m5_16.txt",
+      "/train/j10_m5/train_j10_m5_17.txt",
+      "/train/j10_m5/train_j10_m5_18.txt",
+      "/train/j10_m5/train_j10_m5_19.txt",
+      "/train/j10_m5/train_j10_m5_20.txt",
+      "/train/j10_m5/train_j10_m5_21.txt",
+      "/train/j10_m5/train_j10_m5_22.txt",
+      "/train/j10_m5/train_j10_m5_23.txt",
+      "/train/j10_m5/train_j10_m5_24.txt",
+      "/train/j10_m5/train_j10_m5_25.txt",
+      "/train/j10_m5/train_j10_m5_26.txt",
+      "/train/j10_m5/train_j10_m5_27.txt",
+      "/train/j10_m5/train_j10_m5_28.txt",
+      "/train/j10_m5/train_j10_m5_29.txt",
+      "/train/j10_m5/train_j10_m5_30.txt",
+      "/train/j10_m5/train_j10_m5_31.txt",
+      "/train/j10_m5/train_j10_m5_32.txt",
+      "/train/j10_m5/train_j10_m5_33.txt",
+      "/train/j10_m5/train_j10_m5_34.txt",
+      "/train/j10_m5/train_j10_m5_35.txt",
+      "/train/j10_m5/train_j10_m5_36.txt",
+      "/train/j10_m5/train_j10_m5_37.txt",
+      "/train/j10_m5/train_j10_m5_38.txt",
+      "/train/j10_m5/train_j10_m5_39.txt",
+      "/train/j10_m5/train_j10_m5_40.txt",
+      "/train/j10_m5/train_j10_m5_41.txt",
+      "/train/j10_m5/train_j10_m5_42.txt",
+      "/train/j10_m5/train_j10_m5_43.txt",
+      "/train/j10_m5/train_j10_m5_44.txt",
+      "/train/j10_m5/train_j10_m5_45.txt",
+      "/train/j10_m5/train_j10_m5_46.txt",
+      "/train/j10_m5/train_j10_m5_47.txt",
+      "/train/j10_m5/train_j10_m5_48.txt",
+      "/train/j10_m5/train_j10_m5_49.txt",
+      "/train/j10_m5/train_j10_m5_50.txt",
+      "/train/j10_m5/train_j10_m5_51.txt",
+      "/train/j10_m5/train_j10_m5_52.txt",
+      "/train/j10_m5/train_j10_m5_53.txt",
+      "/train/j10_m5/train_j10_m5_54.txt",
+      "/train/j10_m5/train_j10_m5_55.txt",
+      "/train/j10_m5/train_j10_m5_56.txt",
+      "/train/j10_m5/train_j10_m5_57.txt",
+      "/train/j10_m5/train_j10_m5_58.txt",
+      "/train/j10_m5/train_j10_m5_59.txt",
+      "/train/j10_m5/train_j10_m5_60.txt",
+      "/train/j10_m5/train_j10_m5_61.txt",
+      "/train/j10_m5/train_j10_m5_62.txt",
+      "/train/j10_m5/train_j10_m5_63.txt",
+      "/train/j10_m5/train_j10_m5_64.txt",
+      "/train/j10_m5/train_j10_m5_65.txt",
+      "/train/j10_m5/train_j10_m5_66.txt",
+      "/train/j10_m5/train_j10_m5_67.txt",
+      "/train/j10_m5/train_j10_m5_68.txt",
+      "/train/j10_m5/train_j10_m5_69.txt",
+      "/train/j10_m5/train_j10_m5_70.txt",
+      "/train/j10_m5/train_j10_m5_71.txt",
+      "/train/j10_m5/train_j10_m5_72.txt",
+      "/train/j10_m5/train_j10_m5_73.txt",
+      "/train/j10_m5/train_j10_m5_74.txt",
+      "/train/j10_m5/train_j10_m5_75.txt",
+      "/train/j10_m5/train_j10_m5_76.txt",
+      "/train/j10_m5/train_j10_m5_77.txt",
+      "/train/j10_m5/train_j10_m5_78.txt",
+      "/train/j10_m5/train_j10_m5_79.txt",
+      "/train/j10_m5/train_j10_m5_80.txt",
+      "/train/j10_m5/train_j10_m5_81.txt",
+      "/train/j10_m5/train_j10_m5_82.txt",
+      "/train/j10_m5/train_j10_m5_83.txt",
+      "/train/j10_m5/train_j10_m5_84.txt",
+      "/train/j10_m5/train_j10_m5_85.txt",
+      "/train/j10_m5/train_j10_m5_86.txt",
+      "/train/j10_m5/train_j10_m5_87.txt",
+      "/train/j10_m5/train_j10_m5_88.txt",
+      "/train/j10_m5/train_j10_m5_89.txt",
+      "/train/j10_m5/train_j10_m5_90.txt",
+      "/train/j10_m5/train_j10_m5_91.txt",
+      "/train/j10_m5/train_j10_m5_92.txt",
+      "/train/j10_m5/train_j10_m5_93.txt",
+      "/train/j10_m5/train_j10_m5_94.txt",
+      "/train/j10_m5/train_j10_m5_95.txt",
+      "/train/j10_m5/train_j10_m5_96.txt",
+      "/train/j10_m5/train_j10_m5_97.txt",
+      "/train/j10_m5/train_j10_m5_98.txt",
+      "/train/j10_m5/train_j10_m5_99.txt"]
+
+[policy]
+actor_input_dim = 2
+actor_hidden_dim = 64
+critic_input_dim = 2
+critic_hidden_dim = 64
+
+[ppo]
+training_comment = "PPO_scheduling_5_obj_j10m5_test"
+seed = 0
+buffer_size = 4096
+batch_size = 64
+learning_rate = 1e-3
+lr_decay = true
+gamma = 0.99
+max_epoch = 2000
+step_per_epoch = 500
+episode_per_collect = 10
+replay_buffer_size = 5000
+gae_lambda = 0.95
+max_grad_norm = 0.5
+vf_coef = 0.25
+ent_coef = 0.0
+reward_normalization = true
+action_scaling = true
+action_bound_method = "clip"
+eps_clip = 0.2
+value_clip = false
+dual_clip = 'None'
+advantage_normalization = 0
+recompute_advantage = 1

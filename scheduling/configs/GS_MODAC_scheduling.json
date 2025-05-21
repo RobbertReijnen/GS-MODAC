@@ -1,0 +1,10 @@
+{
+  "train_config_file": "/PPO_scheduling_2_obj_j5m5/train_config.toml",
+  "model_path": "PPO_scheduling_2_obj_j5m5/policy.pth",
+  "problem_instance": "/test/j5_m5/test_j5_m5_1.txt",
+  "alternative_objectives": false,
+  "nr_of_objectives": 2,
+  "population_size": 50,
+  "ngen": 50,
+  "rseed": 5
+}
