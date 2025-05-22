@@ -7,15 +7,15 @@ GS-MODAC introduces a novel methodology that combines Graph Neural Networks (GNN
 
 At each generation of the evolutionary algorithm, the population of candidate solutions is transformed into a graph. Nodes represent normalized objective values, and edges link solutions based on Pareto fronts. A GNN processes this graph to generate an embedding representing the search state. The DRL agent then outputs new EA parameter configurations, which guide the next iteration. This loop continues until the optimization terminates.
 
-
-
 ---
 
 ## Citation:
 
-If you use GS-MODAC in your research or work, please cite the following paper:
+If you use GS-MODAC in your research or work, please cite the following paper (Note: this citation will be updated upon publication):
 
+```
 @article{reijnengraph,
   title={Graph-Supported Dynamic Algorithm Configuration for Multi-Objective Combinatorial Optimization},
   author={Reijnen, Robbert and Wu, Yaoxin and Bukhsh, Zaharah and Zhang, Yingqian}
 }
+```
