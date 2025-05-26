@@ -77,10 +77,7 @@ def main():
     writer = SummaryWriter(log_dir=model_logdir)
 
     if config['environment']['nr_of_environments'] == 1:
-        if 'pso' in TRAIN_CONFIG_FILE:
-            train_env = DummyVectorEnv(
-                [lambda: routingEnvPSO(config) for _ in range(config['environment']['nr_of_environments'])])
-        elif 'scheduling' in TRAIN_CONFIG_FILE:
+        if 'scheduling' in TRAIN_CONFIG_FILE:
             train_env = DummyVectorEnv(
                 [lambda: schedulingEnv(config) for _ in range(config['environment']['nr_of_environments'])])
         elif 'routing' in TRAIN_CONFIG_FILE:
@@ -88,10 +85,7 @@ def main():
                 [lambda: routingEnv(config) for _ in range(config['environment']['nr_of_environments'])])
 
     elif config['environment']['nr_of_environments'] >= 1:
-        if 'pso' in TRAIN_CONFIG_FILE:
-            train_env = SubprocVectorEnv(
-                [lambda: routingEnvPSO(config) for _ in range(config['environment']['nr_of_environments'])])
-        elif 'scheduling' in TRAIN_CONFIG_FILE:
+        if 'scheduling' in TRAIN_CONFIG_FILE:
             train_env = SubprocVectorEnv(
                 [lambda: schedulingEnv(config) for _ in range(config['environment']['nr_of_environments'])])
         elif 'routing' in TRAIN_CONFIG_FILE:
