@@ -14,8 +14,8 @@ from torch.distributions import Independent, Normal
 from torch_geometric.nn import GCNConv
 from torch.optim.lr_scheduler import LambdaLR
 
-from rl_environments.environment_scheduling_GA import schedulingEnv
-from rl_environments.environment_routing_GA import routingEnv
+from rl_environments.environment_scheduling_NSGAii import schedulingEnv
+from rl_environments.environment_routing_NGSAii import routingEnv
 from rl_environments.environment_routing_PSO import routingEnvPSO
 from rl_environments.gnn_models import GNNActor, GNNCritic
 

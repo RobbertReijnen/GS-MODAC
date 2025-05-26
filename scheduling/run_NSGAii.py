@@ -20,7 +20,7 @@ from scheduling.genetic_algorithm.operators import (evaluate_population, evaluat
 
 logging.basicConfig(level=logging.INFO)
 
-PARAM_FILE = "configs/GA_scheduling.json"
+PARAM_FILE = "configs/NSGAii_scheduling.json"
 DEFAULT_RESULTS_ROOT = "./results/single_runs"
 REFERENCE_POINTS_FILE = os.getcwd() + "/data/reference_points.json"
 

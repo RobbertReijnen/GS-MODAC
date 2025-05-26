@@ -7,7 +7,7 @@ from tianshou.env import DummyVectorEnv
 from torch.distributions import Independent, Normal
 
 from rl_environments.gnn_models import GNNActor, GNNCritic
-from rl_environments.environment_routing_GA import routingEnv
+from rl_environments.environment_routing_NGSAii import routingEnv
 from scheduling.helper_functions import load_parameters
 
 from settings import MODELS_DIR

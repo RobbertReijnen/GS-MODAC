@@ -20,7 +20,7 @@ from settings import ROUTING_DATA
 
 logging.basicConfig(level=logging.INFO)
 
-PARAM_FILE = "configs/GA_routing.json"
+PARAM_FILE = "configs/NSGAii_routing.json"
 DEFAULT_RESULTS_ROOT = "./results/routing_runs"
 
 

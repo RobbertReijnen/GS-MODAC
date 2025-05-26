@@ -44,7 +44,7 @@ class schedulingEnv(gym.Env):
         self.reward_factor = parameters['environment']['reward_factor']
         self.problem_instances = parameters['environment']['problem_instances']
 
-        with open('C:/Users/s143036/PycharmProjects/GNN4APC_dev_2/code/src/scheduling/data/ideal_points_{}_obj.json'.format(self.nr_objectives), 'r') as json_file:
+        with open(SCHEDULING_DATA + '/ideal_points_{}_obj.json'.format(self.nr_objectives), 'r') as json_file:
             self.ideal_points = json.load(json_file)
 
         self.save_results = False
