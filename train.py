@@ -16,7 +16,6 @@ from torch.optim.lr_scheduler import LambdaLR
 
 from rl_environments.environment_scheduling_NSGAii import schedulingEnv
 from rl_environments.environment_routing_NGSAii import routingEnv
-from rl_environments.environment_routing_PSO import routingEnvPSO
 from rl_environments.gnn_models import GNNActor, GNNCritic
 
 from settings import DIRECTORY

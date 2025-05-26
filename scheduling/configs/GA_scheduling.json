@@ -1,0 +1,12 @@
+{
+  "problem_instance": "/test/j5_m5/test_j5_m5_1.txt",
+  "nr_of_objectives": 5,
+  "alternative_objectives": false,
+  "population_size": 50,
+  "ngen": 5,
+  "rseed": 5,
+  "indpb": 0.02,
+  "cr": 0.7,
+  "logbook": true,
+  "plotting": false
+}
